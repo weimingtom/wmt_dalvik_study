@@ -2,12 +2,12 @@
 My Android dalvik VM study
 
 ## work  
-* https://github.com/weimingtom/dalvik_cygwin_port  
-* cygwin, dalvik_v1.7z, dalvik_v4.7z  
-* cygwin, dalvik_cygwin_port-master_20180801_v2.rar  
-* rpd 2017 (raspbian x86, debian 9), dalvik_linux_port_v10_success.tar.gz  
+* (cygwin failed), https://github.com/weimingtom/dalvik_cygwin_port  
+* (cygwin failed), dalvik_v1.7z, dalvik_v4.7z  
+* (cygwin failed), dalvik_cygwin_port-master_20180801_v2.rar  
+* rpd 2017 (raspbian x86, debian 9) run success, dalvik_linux_port_v10_success.tar.gz  
 
-## 2022-02-19  
+## 2022-02-19, dalvik_linux_port_v10_success.tar.gz  
 (1) must use debian/linux 32bit, (64 bit failed) , use rpd 2017 run success  
 (2) see Makefile, sudo apt install  
 sudo apt install libffi-dev  
