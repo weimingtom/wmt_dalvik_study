@@ -1,5 +1,5 @@
 # wmt_dalvik_study
-My Android dalvik VM study
+My Android dalvik VM study (currently only dalvik for Android 2.2)  
 
 ## work  
 * (cygwin failed), https://github.com/weimingtom/dalvik_cygwin_port  
