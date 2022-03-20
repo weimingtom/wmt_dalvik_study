@@ -43,4 +43,8 @@ if debug multi processes(dexopt and dalvikvm)
 * https://github.com/jserv/simple-dvm  
 
 ## android-dalvik-vm-on-java  
-https://github.com/weimingtom/android-dalvik-vm-on-java  
+To study the concept and architecture of Dalvik VM,   
+Koji Hisano is developing this for J2ME CLDC environments as   
+on-going research at "eflow Inc."  
+* https://code.google.com/archive/p/android-dalvik-vm-on-java/  
+* https://github.com/weimingtom/android-dalvik-vm-on-java  
