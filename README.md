@@ -1,6 +1,9 @@
 # wmt_dalvik_study
 My Android dalvik VM study (currently only dalvik for Android 2.2)  
 
+## TODO  
+* https://github.com/kai4785/webos_dalvik  
+
 ## work  
 * (cygwin failed), https://github.com/weimingtom/dalvik_cygwin_port  
 * (cygwin failed), dalvik_v1.7z, dalvik_v4.7z  
@@ -48,3 +51,8 @@ Koji Hisano is developing this for J2ME CLDC environments as
 on-going research at "eflow Inc."  
 * https://code.google.com/archive/p/android-dalvik-vm-on-java/  
 * https://github.com/weimingtom/android-dalvik-vm-on-java  
+
+## etc  
+* https://github.com/jjfiv/dalvik-js  
+* https://github.com/MiCode/dalvik  
+* https://github.com/lexrrx/DalvikVM-Servlet  
