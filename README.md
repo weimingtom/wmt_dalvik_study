@@ -44,6 +44,7 @@ if debug multi processes(dexopt and dalvikvm)
 * https://github.com/wicanr2/simple_jvm_and_dvm  
 * https://github.com/majestyhao/SimpleDalvik  
 * https://github.com/jserv/simple-dvm  
+* https://github.com/cycheng/simple-dvm  
 
 ## android-dalvik-vm-on-java  
 To study the concept and architecture of Dalvik VM,   
