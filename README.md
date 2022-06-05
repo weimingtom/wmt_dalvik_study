@@ -60,3 +60,6 @@ on-going research at "eflow Inc."
 
 ## REDasm  
 * https://redasm.io  
+
+## Porting Dalvik  
+* https://wladimir-tm4pda.github.io/porting/dalvik.html#dalvikInterpreter  
