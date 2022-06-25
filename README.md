@@ -63,3 +63,8 @@ on-going research at "eflow Inc."
 
 ## Porting Dalvik  
 * https://wladimir-tm4pda.github.io/porting/dalvik.html#dalvikInterpreter  
+
+## port  
+* https://stackoverflow.com/questions/3542268/how-can-i-compile-dalvik-to-run-it-locally-on-linux  
+* https://github.com/reyammer/dexware  
+* https://code.google.com/archive/p/dvk/  
