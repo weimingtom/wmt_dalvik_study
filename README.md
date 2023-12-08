@@ -1,6 +1,21 @@
 # wmt_dalvik_study
 My Android dalvik VM study (currently only dalvik for Android 2.2)  
 
+## TODO, build Android src  
+* 香橙派PCPlus和LCPI-H3的安卓4.4编译（需要迁移到VirtualBox）  
+三星开发板的安卓4.4编译（可能缺少一些工具的编译指引，见weibo）  
+古老三星版开发板的安卓2.3编译（参考大SD卡的内容，上传网盘？）  
+
+* 我恐怕需要找时间整理编译和运行旧版本安卓（安卓2.3和安卓4.4和安卓5）的指引记录备忘文档——老掉牙安卓，怀旧用（划去，研究dalvik用），部分未尝试  
+（1）mini210（s5pv210）的安卓2.3，或者用s3c的arm11也支持安卓2.3  
+（2）香橙派PC Plus和LCPI-H3的安卓4.4  
+（3）NanoPC-T2（S5P4418）的安卓5  
+
+* 忘记哪里记录 NanoPC的打包工具，待考  
+sd-fuse_h3， search百度盘 sd_update  
+
+* 注意香橙派PC Plus买了  
+
 ## TODO  
 * https://github.com/kai4785/webos_dalvik  
 
