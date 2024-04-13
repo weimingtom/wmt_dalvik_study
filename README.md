@@ -86,3 +86,11 @@ on-going research at "eflow Inc."
 
 ## some books  
 * search baidupan, dalvik_book  
+
+## make_ext4fs, 友善之臂FriendlyArm, NanoPC-T2, S5P4418, Android 5.1 build ???  
+* https://github.com/weimingtom/wmt_ai_study/blob/master/weibo_001.txt  
+* https://github.com/woju/make_ext4fs  
+* (dead) https://github.com/rendiix/android-prebuilt-binary-tools  
+* https://github.com/arfoll/updater-hack  
+* https://github.com/weihutaisui/BCM/tree/master/HGU_BCM68580/02_src_502L04patch2/hostTools/make_ext4fs/extras_latest/extras/ext4_utils  
+* https://wiki.friendlyelec.com/wiki/index.php/NanoPC-T2  
