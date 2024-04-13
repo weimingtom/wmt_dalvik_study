@@ -85,11 +85,14 @@ on-going research at "eflow Inc."
 * search baidupan, dalvik_book  
 
 ## (IMP?) 忘记哪里记录 NanoPC的打包工具，待考  
-* sd-fuse_h3， search百度盘 sd_update  
+* sd-fuse_h3， search百度盘 sd_update
+* https://github.com/friendlyarm/sd-fuse_h3
+* https://github.com/friendlyarm/sd-fuse_s5p4418  
 * make_ext4fs, 友善之臂FriendlyArm, NanoPC-T2, S5P4418, Android 5.1 build ???  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/weibo_001.txt  
 * https://github.com/woju/make_ext4fs  
 * (dead) https://github.com/rendiix/android-prebuilt-binary-tools  
 * https://github.com/arfoll/updater-hack  
 * https://github.com/weihutaisui/BCM/tree/master/HGU_BCM68580/02_src_502L04patch2/hostTools/make_ext4fs/extras_latest/extras/ext4_utils  
-* https://wiki.friendlyelec.com/wiki/index.php/NanoPC-T2  
+* https://wiki.friendlyelec.com/wiki/index.php/NanoPC-T2    
+* https://wiki.friendlyelec.com/wiki/index.php/NanoPC-T3  
