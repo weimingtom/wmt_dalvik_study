@@ -11,9 +11,6 @@ My Android dalvik VM study (currently only dalvik for Android 2.2)
 （2）香橙派PC Plus和LCPI-H3的安卓4.4  
 （3）NanoPC-T2（S5P4418）的安卓5  
 
-* 忘记哪里记录 NanoPC的打包工具，待考  
-sd-fuse_h3， search百度盘 sd_update  
-
 * 注意香橙派PC Plus买了  
 
 ## TODO  
@@ -87,7 +84,9 @@ on-going research at "eflow Inc."
 ## some books  
 * search baidupan, dalvik_book  
 
-## make_ext4fs, 友善之臂FriendlyArm, NanoPC-T2, S5P4418, Android 5.1 build ???  
+## (IMP?) 忘记哪里记录 NanoPC的打包工具，待考  
+* sd-fuse_h3， search百度盘 sd_update  
+* make_ext4fs, 友善之臂FriendlyArm, NanoPC-T2, S5P4418, Android 5.1 build ???  
 * https://github.com/weimingtom/wmt_ai_study/blob/master/weibo_001.txt  
 * https://github.com/woju/make_ext4fs  
 * (dead) https://github.com/rendiix/android-prebuilt-binary-tools  
