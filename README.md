@@ -13,7 +13,10 @@ My Android dalvik VM study (currently only dalvik for Android 2.2)
 
 * 注意香橙派PC Plus买了  
 
-* My weibo digest, s3c arm11==s3c6410 (?)        
+* s5pv210==友善之臂 mini210s单板  
+s3c arm11==s3c6410, S3C6410友善之臂mini6410 ARM11  
+
+* My weibo digest, s3c arm11==s3c6410, S3C6410友善之臂mini6410 ARM11      
 ```
 我找到飞凌的开发板，可以运行旧版本的android 2.3（应该只此一家了）——
 除了我之前购买的友善之臂的nanopc-t2可以运行android5和android4
