@@ -13,7 +13,7 @@ My Android dalvik VM study (currently only dalvik for Android 2.2)
 
 * 注意香橙派PC Plus买了  
 
-* my weibo digest  
+* My weibo digest, s3c arm11==s3c6410 (?)        
 ```
 我找到飞凌的开发板，可以运行旧版本的android 2.3（应该只此一家了）——
 除了我之前购买的友善之臂的nanopc-t2可以运行android5和android4
@@ -85,7 +85,76 @@ mini210s（s5pv210）和s3c arm11的区别是：
 有些是移植安卓2.1，如今觉得很好用，
 但当时是非常高昂的成本
 ```
-
+```
+我通过钞能力搞到第二块s3c arm11，256M内存，
+终于可以跑起来android 2.3.4。
+另外我找了个其他牌子的SD大卡，
+发现还是没办法烧写s3c arm11，
+看来只有SanDisk才行，我试过32GB可以用 ​​​
+```
+```
+我也成功编译出mini210(s5pv210)的android 2.3.1的根文件系统，方法和s3c arm11差不多，
+如果可以编译出s3c arm11的Android 2.3.4，这个也会很容易
+（使用ubuntu 12，32位，安装的apt包相同，gcc4），
+只需要改几个文件，一个mk文件（-Wno-error）和
+genrootfs.sh（开头的/bin/sh改成bash）。
+至于Linux的zImage编译，我用了相同的工具链，
+按道理是和s3c arm11是通用的（文件名的版本相同但时间不同）。
+因为还没买210的开发板，等以后买到手再测试效果
+```
+```
+除了我上次说的那个s3c arm11，我发现还有s5pv210（mini210s）也是支持Android 2.3的，
+只不过这个是A8架构，而且其实是支持Android 4.0.3
+（不过光盘里面也提供了2.3的根文件系统源码）。
+s3c arm11和s5pv210的区别是210支持mini-hdmi输出，
+不过不提供u-boot代码（可能已经集成在闭源的SD卡bootloader中）
+```
+```
+另外，s3c arm11还有一些好处，我是比较喜欢的，例如支持分线器（集线器）接键盘鼠标，
+这样就可以不需要用笔点电阻触摸屏了。另外可以接卡套接tf卡，用于文件复制，
+这样可以省了网线传文件的麻烦（可能usb host也可以接u盘，待考），
+虽然卡套无法用于卡刷固件（这个板的最原始的bootloader似乎不支持卡套，
+我是用32G的相机SD卡）
+```
+```
+总体来说，我觉得这个古老的s3c arm11的可玩要远大于imx283和现在的很多带屏板
+（例如ssd202d和全志d1、v3s、f1c之类），
+虽然内存小和主频低（其实现在很多带屏板的内存也只有128）。
+主要是支持的OS很多（古老的Win CE6），
+甚至还能bare-metal和ucos2（虽然需要一些闭源工具）。
+我打算过一段时间再买一个，看能否买到256M版的
+```
+研究了半天，终于理解了友善之臂s3c arm11开发板的简单用法：
+首先，如果要卡刷（友善的闭源bootloader），
+需要大的SD卡，我试过卡套果然是不行。然后，板上的PC串口线用不了，
+我是用四线串口线去看调试输出和命令行（友善的linux是用busybox）。
+然后，我没跑起来Android 2.3，似乎是因为内存不够（我买了128M内存版，
+可能要再买一个256M版才行，待考）。最后，这板支持四种系统，
+友善linux（qtopia）、Android 2.3.4、Windows CE和xubuntu，
+其中Android是开源的（打包器可能不开源），CE闭源，
+xubuntu的根文件系统闭源，友善linux似乎提供了一个busybox的
+最小化的根文件系统和qt和闭源文件系统。
+应该是可以看到framebuffer设备的，问题是可能会被占用，待考
+```
+我现在怀疑我需要迁移到dalvik的Android 4.4版本而不是去研究Android 2.3，
+原因是，我发现能找到的支持Android 2.3的开发板就只剩下s3c的arm11开发板，
+因为到了Android 4的armv7a就是不支持arm11，
+而大部分开发板除了arm9和arm11以外，就是arm v7a和以上的架构了。
+所以事实上，开发板最低支持的Android版本是4，而且考虑到内存问题，
+1G内存才比较够用，arm11的256M似乎有点不太够
+```
+```
+最近入手了新的开发板，s3c的arm11开发板（跟2440很像，只不过不是arm9，PCB也很类似于2440），
+我主要是想研究Android代码，因为它有一份Android 2.3的移植代码
+（我上次说过那个很像buildroot的编译过程，只需要编译成根文件系统）。
+令我惊讶的是这板是新的，可能有PCB图纸可以打印出来 ​​​
+```
+我以前对有些开发板用buildroot只用于生成根文件系统（linux内核另外生成）感觉很不解，
+不过最近发现android似乎也可以这样做（我是研究s3c arm11开发板的android 2.3）——
+简单来说诸如dalvikvm原生程序的生成和文件系统打包非常类似于buildroot，
+也可以最终输出到img文件或者对应的文件（ext4文件系统），
+至于内核和bootloader则分开编译，与android的构建可以无关
+```
 
 ## TODO  
 * https://github.com/kai4785/webos_dalvik  
