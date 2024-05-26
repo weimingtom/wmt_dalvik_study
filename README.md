@@ -13,6 +13,15 @@ My Android dalvik VM study (currently only dalvik for Android 2.2)
 
 * 注意香橙派PC Plus买了  
 
+* 友善八核S5P6818物联网NanoPi Fire3开发板. | NanoPC-T3 Plus    
+```
+公司搞了一台刷卡机，非触摸，可以扫码和刷卡。侧边拆开挡板有很多口，
+可以接鼠标和USB-OTG（adb接口），
+里面是Android 5，CPU是S5P6818，用鼠标可以模拟触摸屏。可以当作一台平板电脑，
+不过如果没有鼠标的话就是广告牌了（误），工控平板，我喜欢。
+不过我家里好像只有s3c6418和NanoPC-T2（S5P4418），没有6818
+```
+
 * s5pv210==友善之臂 mini210s单板  
 s3c arm11==s3c6410, S3C6410友善之臂mini6410 ARM11  
 
