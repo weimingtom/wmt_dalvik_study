@@ -178,9 +178,11 @@ xubuntu的根文件系统闭源，友善linux似乎提供了一个busybox的
 * (cygwin failed), https://github.com/weimingtom/dalvik_cygwin_port  
 * (cygwin failed), dalvik_v1.7z, dalvik_v4.7z  
 * (cygwin failed), dalvik_cygwin_port-master_20180801_v2.rar  
-* rpd 2017 (raspbian x86, debian 9) run success, dalvik_linux_port_v10_success.tar.gz  
+* rpd 2017 (raspbian x86, debian 9) run success, dalvik_linux_port_v10_success.tar.gz   
+see https://github.com/weimingtom/dalvik_2.2_rpd32_port
 
 ## 2022-02-19, dalvik_linux_port_v10_success.tar.gz  
+see https://github.com/weimingtom/dalvik_2.2_rpd32_port  
 (1) must use debian/linux 32bit, (64 bit failed) , use rpd 2017 run success  
 (2) see Makefile, sudo apt install  
 sudo apt install libffi-dev  
